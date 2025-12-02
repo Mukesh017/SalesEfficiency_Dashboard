@@ -94,30 +94,7 @@ Relationships built using Star Schema.
 
 ---
 
-### 6️⃣ DAX Measures (partial list)
-File: `DAX/measures.txt`
-
-Examples:
-```DAX
-Total Sales = SUM(FactSales[Sales])
-Total Profit = SUM(FactSales[Profit])
-AOV = [Total Sales] / DISTINCTCOUNT(FactSales[OrderID])
-
-Profit Per City Dynamic = 
-VAR SelStep = SELECTEDVALUE(CityRotation[Step])
-VAR SelectedCity =
-    SWITCH(
-        SelStep,
-        1, "Chennai",
-        2, "Bangalore",
-        3, "Delhi",
-        4, "Mumbai"
-    )
-RETURN
-CALCULATE([Total Profit], DimCity[City] = SelectedCity)
----
-
-### 7️⃣📸 Reports Preview
+### 6️⃣📸 Reports Preview
 
 Below are the visuals from all dashboard pages.
 
@@ -146,3 +123,29 @@ Below are the visuals from all report pages included in the Power BI dashboard.
 
 📄 Page 8
 <img width="1919" height="842" alt="ReportPage 8" src="https://github.com/user-attachments/assets/66e7fcbe-3890-40df-9bd1-36023242e797" />
+
+---
+
+### 7️⃣ DAX Measures (partial list)
+File: `DAX/measures.txt`
+
+Examples:
+```DAX
+Total Sales = SUM(FactSales[Sales])
+Total Profit = SUM(FactSales[Profit])
+AOV = [Total Sales] / DISTINCTCOUNT(FactSales[OrderID])
+
+Profit Per City Dynamic = 
+VAR SelStep = SELECTEDVALUE(CityRotation[Step])
+VAR SelectedCity =
+    SWITCH(
+        SelStep,
+        1, "Chennai",
+        2, "Bangalore",
+        3, "Delhi",
+        4, "Mumbai"
+    )
+RETURN
+CALCULATE([Total Profit], DimCity[City] = SelectedCity)
+
+---
