@@ -115,3 +115,34 @@ VAR SelectedCity =
     )
 RETURN
 CALCULATE([Total Profit], DimCity[City] = SelectedCity)
+---
+
+### 7️⃣📸 Reports Preview
+
+Below are the visuals from all dashboard pages.
+
+Below are the visuals from all report pages included in the Power BI dashboard.
+
+📄 Page 1
+<img width="1918" height="840" alt="ReportPage 1" src="https://github.com/user-attachments/assets/39bbc03f-02be-42d7-8ca2-f46f8419406c" />
+
+📄 Page 2   
+<img width="1919" height="840" alt="ReportPage 2" src="https://github.com/user-attachments/assets/c3e0845b-acbf-4af0-8f10-3dc7d1b8aed3" />
+
+📄 Page 3   
+<img width="1919" height="843" alt="ReportPage 3" src="https://github.com/user-attachments/assets/8b3ea2e9-7386-44de-baed-5d95948a5127" />
+
+📄 Page 4
+<img width="1919" height="841" alt="ReportPage 4" src="https://github.com/user-attachments/assets/a2c053ac-4f8b-41aa-988f-11be0f76dbc3" />
+
+📄 Page 5
+<img width="1919" height="845" alt="ReportPage 5" src="https://github.com/user-attachments/assets/68cbde3a-8779-465f-8b4e-9130334098aa" />
+
+📄 Page 6
+<img width="1919" height="841" alt="ReportPage 6" src="https://github.com/user-attachments/assets/1098d3d2-7af0-4dee-88c0-432ec24952cc" />
+
+📄 Page 7
+<img width="1919" height="844" alt="ReportPage 7" src="https://github.com/user-attachments/assets/613ee07e-b76b-47b3-9cf8-d3b906e2abde" />
+
+📄 Page 8
+<img width="1919" height="842" alt="ReportPage 8" src="https://github.com/user-attachments/assets/66e7fcbe-3890-40df-9bd1-36023242e797" />
