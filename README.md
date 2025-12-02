@@ -50,13 +50,9 @@ Performed using pandas:
 - Removing duplicates  
 - Standardizing categorical fields  
 
-Final cleaned dataset stored under  
-`/data/cleaned/`
-
 ---
 
 ### 3️⃣ Exploratory Data Analysis (EDA)
-EDA Notebook: `notebooks/eda.ipynb`
 
 Key insights:
 - Sales trend by month  
@@ -71,7 +67,6 @@ Visuals generated using Matplotlib & Seaborn.
 ---
 
 ### 4️⃣ SQL Analysis & Modelling  
-File: `sql/analysis_queries.sql`
 
 Included:
 - Fact & Dimension model creation  
@@ -127,7 +122,6 @@ Below are the visuals from all report pages included in the Power BI dashboard.
 ---
 
 ### 7️⃣ DAX Measures (partial list)
-File: `DAX/measures.txt`
 
 Examples:
 ```DAX
